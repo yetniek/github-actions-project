@@ -18,7 +18,7 @@ jobs:
     - name: Display Python version
       run: python -c "import sys; print(sys.version)"
     - name: Build & push Docker image
-      uses: mr-smithers-excellent/docker-build-push@v5
+      uses: yetniek/github-actions-app@v5
       with:
         image: yetniek/github-actions-app
         tags: v3, latest
